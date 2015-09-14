@@ -1,0 +1,227 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #ffffff;
+	color: #252525;
+	font-size: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+	background: url(images/background.gif) repeat-x; 
+}
+#wrap {
+	width: 900px;
+	text-align: left;
+}
+#header {
+	height: 100px;
+	background:url(images/background_header.gif) no-repeat;
+}
+#title {
+	float: left;
+	padding-top: 15px;
+}
+#pagenav {
+	float: right;
+	font-size: 9pt;
+	font-weight: bold;
+	padding: 40px 10px 0px 0px;
+}
+#sidebar {
+	width: 170px;
+	background: url(images/background_sidebar.gif) repeat-y;
+	border-right: 1px solid #410202;
+	border-left: 1px solid #410202;
+	float: right;
+	margin-top: 1px;
+	padding: 30px 10px 30px 20px;
+}
+#content {
+	margin: 0px 230px 0px 0px;
+	padding: 30px 0px;
+}
+#content_layout {
+	float: left;
+	width: 100%;
+}
+#footer {
+	color: #666666;
+	text-align: center;
+	padding: 15px 0px;
+}
+#footer a{
+	color: #666666;
+	text-decoration: none;
+}
+.post {
+	padding-bottom: 20px;
+	background: url(images/background_post.gif) right bottom no-repeat;
+/*	border-bottom: 1px solid #b2b2b2; */
+	margin-bottom: 20px;
+}
+.postmetadata {
+	padding: 10px 0px 10px 0px;
+	color:#666666;
+}
+/* text */
+#title h1 a {
+	color: #ffffff;
+	font-size: 24pt;
+	text-decoration: none;
+	font-weight: normal;
+}
+.description {
+	color:#CCCCCC;
+	font-size: 14pt;
+}
+#pagenav ul li {
+	list-style:none;
+	display: inline;
+}
+#pagenav li a {
+	color: #ffffff;
+	padding-left: 20px;
+	text-decoration: none;
+}
+#pagenav li a:hover {
+	color:#410202;
+}
+#content h1, h2, h3, h4, ol, ul, #calendar_wrap, p {
+	padding-bottom: 10px;
+}
+#content h1 {
+	color: #790000;
+	font-size: 14pt;
+}
+h2 {
+	font-size: 12pt;
+}
+h2 a {
+	color: #252525;
+	text-decoration: none;
+}
+h3, h4 {
+	font-size: 11pt;
+	color: #790000;
+}
+a {
+	color: #790000;
+	text-decoration: none;
+}
+#content h1 a {
+	color: #790000;
+	text-decoration: none;
+}
+.postmetadata a {
+	color:#666666;
+	text-decoration: none;
+}
+#sidebar a {
+	color: #410202;
+	text-decoration: none;
+}
+#sidebar ul li {
+	list-style: none;
+}
+ul li ul li {
+	margin-left: 10px;
+}
+ul li ul li ul li {	
+	margin-left: 10px;
+}
+#sidebar li {
+	padding-bottom: 2px;
+}
+td, th {
+	padding: 2px;
+}
+caption {
+	font-weight: bold;
+}
+#content ul li, #content ol li {
+	margin-left: 30px;
+}
+blockquote {
+	padding: 15px 15px 15px 30px;
+	font-size: 10pt;
+	font-style: italic;
+	background:url(images/background_blockquote.gif) left top no-repeat;
+}
+/* form */
+#bCalendarToday {
+	font-weight: bold;
+	color: #790000;
+}
+.bComment, .feedback_feed_msg {
+	padding: 10px 0px;
+}
+.form_text_input, .SearchField, #author, #email, #url, #comment, textarea  {
+	border: 1px solid #790000; 
+	padding: 5px;
+	font-size: 8pt;
+	background: transparent;
+	margin: 2px 0px;
+}
+#submit, .searchsubmit, .submit, .preview {
+	background: url(images/background_input.gif);
+	color: #333333;
+	border: 1px solid #790000; 
+	font-size: 8pt;
+	padding: 2px;
+	font-weight: bold;
+	margin: 2px 0px;
+}
+fieldset {
+	border: 0px;
+}
+.powered_by {
+	padding-top: 10px;
+}
+/* ---------------------------------------------------------- */
+#evo_toolbar ul li,
+#evo_toolbar ol li {
+   margin-left: 0;
+}
+blockquote p {
+	padding-top: 10px;
+}
+#content .image_block {
+	text-align: left !important;
+}
+.moderation_msg p {
+	padding-top: 10px;
+}
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #252525;
+	background-color: transparent;
+	border-radius: 0px !important;
+	border: 1px solid #252525 !important;
+	cursor: pointer;
+	padding: 5px;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	color: #fff;
+	background-color: #252525;
+}
+.sitewide_header {
+	margin-bottom: 0px !important;
+	z-index: 1000;
+	position: relative;
+}
+#wrap {
+	z-index: -1;
+}
+div.bComment, form.bComment {
+	border: none !important;
+}
+#bCalendarToday {
+	background-color: transparent !important;
+	border: none !important;
+	font-weight: bold;
+	color: #252525;
+}
